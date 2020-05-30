@@ -1,0 +1,23 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "asynchronous work",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/callback.js",
+    "challenge:callback": "node src/callback/challenge.js",
+    "promise": "node src/promise/promise.js",
+    "challenge:promise": "node src/promise/promise.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    " async"
+  ],
+  "author": "anbreaker",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {}
+}
